@@ -1,0 +1,501 @@
+{
+	"manifest": "docs\\05-visual\\agent-contract\\manifests\\vanguard_sword_shield.rig.json",
+	"logical_canvas": [
+		512,
+		512
+	],
+	"templates": {
+		"upper_arm_l": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "upper_arm_l",
+				"z_index": 30,
+				"lane": "armor_far (behind torso)",
+				"proximal": {
+					"marker": "SHOULDER_L",
+					"logical": [
+						215.0,
+						232.0
+					],
+					"template_px": [
+						430.0,
+						464.0
+					]
+				},
+				"distal": {
+					"marker": "ELBOW_L",
+					"logical": [
+						190.0,
+						276.0
+					],
+					"template_px": [
+						380.0,
+						552.0
+					]
+				},
+				"bone_length_logical": 50.60632371551998,
+				"bone_angle_from_vertical_deg": -29.60445074600491,
+				"file": "regen_template__upper_arm_l__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "upper_arm_l",
+				"z_index": 30,
+				"lane": "armor_far (behind torso)",
+				"proximal": {
+					"marker": "SHOULDER_L",
+					"logical": [
+						215.0,
+						232.0
+					],
+					"template_px": [
+						645.0,
+						696.0
+					]
+				},
+				"distal": {
+					"marker": "ELBOW_L",
+					"logical": [
+						190.0,
+						276.0
+					],
+					"template_px": [
+						570.0,
+						828.0
+					]
+				},
+				"bone_length_logical": 50.60632371551998,
+				"bone_angle_from_vertical_deg": -29.60445074600491,
+				"file": "regen_template__upper_arm_l__front3q__3x.png"
+			}
+		},
+		"upper_arm_r": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "upper_arm_r",
+				"z_index": 85,
+				"lane": "armor_near (in front of torso)",
+				"proximal": {
+					"marker": "SHOULDER_R",
+					"logical": [
+						297.0,
+						232.0
+					],
+					"template_px": [
+						594.0,
+						464.0
+					]
+				},
+				"distal": {
+					"marker": "ELBOW_R",
+					"logical": [
+						322.0,
+						276.0
+					],
+					"template_px": [
+						644.0,
+						552.0
+					]
+				},
+				"bone_length_logical": 50.60632371551998,
+				"bone_angle_from_vertical_deg": 29.60445074600491,
+				"file": "regen_template__upper_arm_r__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "upper_arm_r",
+				"z_index": 85,
+				"lane": "armor_near (in front of torso)",
+				"proximal": {
+					"marker": "SHOULDER_R",
+					"logical": [
+						297.0,
+						232.0
+					],
+					"template_px": [
+						891.0,
+						696.0
+					]
+				},
+				"distal": {
+					"marker": "ELBOW_R",
+					"logical": [
+						322.0,
+						276.0
+					],
+					"template_px": [
+						966.0,
+						828.0
+					]
+				},
+				"bone_length_logical": 50.60632371551998,
+				"bone_angle_from_vertical_deg": 29.60445074600491,
+				"file": "regen_template__upper_arm_r__front3q__3x.png"
+			}
+		},
+		"forearm_hand_l": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "forearm_hand_l",
+				"z_index": 31,
+				"lane": "armor_far",
+				"proximal": {
+					"marker": "ELBOW_L",
+					"logical": [
+						190.0,
+						276.0
+					],
+					"template_px": [
+						380.0,
+						552.0
+					]
+				},
+				"distal": {
+					"marker": "HAND_L",
+					"logical": [
+						174.0,
+						322.0
+					],
+					"template_px": [
+						348.0,
+						644.0
+					]
+				},
+				"bone_length_logical": 48.703182647543684,
+				"bone_angle_from_vertical_deg": -19.17900802581072,
+				"file": "regen_template__forearm_hand_l__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "forearm_hand_l",
+				"z_index": 31,
+				"lane": "armor_far",
+				"proximal": {
+					"marker": "ELBOW_L",
+					"logical": [
+						190.0,
+						276.0
+					],
+					"template_px": [
+						570.0,
+						828.0
+					]
+				},
+				"distal": {
+					"marker": "HAND_L",
+					"logical": [
+						174.0,
+						322.0
+					],
+					"template_px": [
+						522.0,
+						966.0
+					]
+				},
+				"bone_length_logical": 48.703182647543684,
+				"bone_angle_from_vertical_deg": -19.17900802581072,
+				"file": "regen_template__forearm_hand_l__front3q__3x.png"
+			}
+		},
+		"forearm_hand_r": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "forearm_hand_r",
+				"z_index": 86,
+				"lane": "armor_near",
+				"proximal": {
+					"marker": "ELBOW_R",
+					"logical": [
+						322.0,
+						276.0
+					],
+					"template_px": [
+						644.0,
+						552.0
+					]
+				},
+				"distal": {
+					"marker": "HAND_R",
+					"logical": [
+						338.0,
+						322.0
+					],
+					"template_px": [
+						676.0,
+						644.0
+					]
+				},
+				"bone_length_logical": 48.703182647543684,
+				"bone_angle_from_vertical_deg": 19.17900802581072,
+				"file": "regen_template__forearm_hand_r__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "forearm_hand_r",
+				"z_index": 86,
+				"lane": "armor_near",
+				"proximal": {
+					"marker": "ELBOW_R",
+					"logical": [
+						322.0,
+						276.0
+					],
+					"template_px": [
+						966.0,
+						828.0
+					]
+				},
+				"distal": {
+					"marker": "HAND_R",
+					"logical": [
+						338.0,
+						322.0
+					],
+					"template_px": [
+						1014.0,
+						966.0
+					]
+				},
+				"bone_length_logical": 48.703182647543684,
+				"bone_angle_from_vertical_deg": 19.17900802581072,
+				"file": "regen_template__forearm_hand_r__front3q__3x.png"
+			}
+		},
+		"thigh_l": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "thigh_l",
+				"z_index": 40,
+				"lane": "legs",
+				"proximal": {
+					"marker": "HIP_L",
+					"logical": [
+						236.0,
+						326.0
+					],
+					"template_px": [
+						472.0,
+						652.0
+					]
+				},
+				"distal": {
+					"marker": "KNEE_L",
+					"logical": [
+						228.0,
+						382.0
+					],
+					"template_px": [
+						456.0,
+						764.0
+					]
+				},
+				"bone_length_logical": 56.568542494923804,
+				"bone_angle_from_vertical_deg": -8.13010235415598,
+				"file": "regen_template__thigh_l__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "thigh_l",
+				"z_index": 40,
+				"lane": "legs",
+				"proximal": {
+					"marker": "HIP_L",
+					"logical": [
+						236.0,
+						326.0
+					],
+					"template_px": [
+						708.0,
+						978.0
+					]
+				},
+				"distal": {
+					"marker": "KNEE_L",
+					"logical": [
+						228.0,
+						382.0
+					],
+					"template_px": [
+						684.0,
+						1146.0
+					]
+				},
+				"bone_length_logical": 56.568542494923804,
+				"bone_angle_from_vertical_deg": -8.13010235415598,
+				"file": "regen_template__thigh_l__front3q__3x.png"
+			}
+		},
+		"thigh_r": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "thigh_r",
+				"z_index": 42,
+				"lane": "legs",
+				"proximal": {
+					"marker": "HIP_R",
+					"logical": [
+						276.0,
+						326.0
+					],
+					"template_px": [
+						552.0,
+						652.0
+					]
+				},
+				"distal": {
+					"marker": "KNEE_R",
+					"logical": [
+						284.0,
+						382.0
+					],
+					"template_px": [
+						568.0,
+						764.0
+					]
+				},
+				"bone_length_logical": 56.568542494923804,
+				"bone_angle_from_vertical_deg": 8.13010235415598,
+				"file": "regen_template__thigh_r__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "thigh_r",
+				"z_index": 42,
+				"lane": "legs",
+				"proximal": {
+					"marker": "HIP_R",
+					"logical": [
+						276.0,
+						326.0
+					],
+					"template_px": [
+						828.0,
+						978.0
+					]
+				},
+				"distal": {
+					"marker": "KNEE_R",
+					"logical": [
+						284.0,
+						382.0
+					],
+					"template_px": [
+						852.0,
+						1146.0
+					]
+				},
+				"bone_length_logical": 56.568542494923804,
+				"bone_angle_from_vertical_deg": 8.13010235415598,
+				"file": "regen_template__thigh_r__front3q__3x.png"
+			}
+		},
+		"waist_tabard": {
+			"2x": {
+				"scale_k": 2,
+				"template_size": [
+					1024,
+					1024
+				],
+				"bone": "hip",
+				"z_index": 51,
+				"lane": "torso+1 (over torso and legs, under near arm)",
+				"proximal": {
+					"marker": "HIP",
+					"logical": [
+						256.0,
+						326.0
+					],
+					"template_px": [
+						512.0,
+						652.0
+					]
+				},
+				"cloth_envelope_logical": {
+					"top_y": 326.0,
+					"bottom_y_max": 422.0,
+					"left_x": 214.0,
+					"right_x": 298.0,
+					"note": "hanging cloth/faulds only, NO belt (torso owns the waist); must end above ground_y"
+				},
+				"file": "regen_template__waist_tabard__front3q__2x.png"
+			},
+			"3x": {
+				"scale_k": 3,
+				"template_size": [
+					1536,
+					1536
+				],
+				"bone": "hip",
+				"z_index": 51,
+				"lane": "torso+1 (over torso and legs, under near arm)",
+				"proximal": {
+					"marker": "HIP",
+					"logical": [
+						256.0,
+						326.0
+					],
+					"template_px": [
+						768.0,
+						978.0
+					]
+				},
+				"cloth_envelope_logical": {
+					"top_y": 326.0,
+					"bottom_y_max": 422.0,
+					"left_x": 214.0,
+					"right_x": 298.0,
+					"note": "hanging cloth/faulds only, NO belt (torso owns the waist); must end above ground_y"
+				},
+				"file": "regen_template__waist_tabard__front3q__3x.png"
+			}
+		}
+	}
+}

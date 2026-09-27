@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "rig_id": "vanguard_sword_shield",
+  "status": "frozen_p1_5",
+  "logical_canvas": {
+    "width": 512,
+    "height": 512
+  },
+  "center_axis_x": 256,
+  "ground_y": 448,
+  "canonical_source_facing": "right",
+  "authored_views": [
+    "front_3q",
+    "back_3q"
+  ],
+  "horizontal_facing": {
+    "right": {
+      "mirror_x": false
+    },
+    "left": {
+      "mirror_x": true
+    }
+  },
+  "geometry": {
+    "primary_markers_absolute": {
+      "HEAD_CENTER": [
+        256,
+        145
+      ],
+      "HEAD_ROOT": [
+        256,
+        194
+      ],
+      "SHOULDER_L": [
+        215,
+        232
+      ],
+      "SHOULDER_R": [
+        297,
+        232
+      ],
+      "ELBOW_L": [
+        190,
+        276
+      ],
+      "ELBOW_R": [
+        322,
+        276
+      ],
+      "HAND_L": [
+        174,
+        322
+      ],
+      "HAND_R": [
+        338,
+        322
+      ],
+      "HIP": [
+        256,
+        326
+      ],
+      "KNEE_L": [
+        228,
+        382
+      ],
+      "KNEE_R": [
+        284,
+        382
+      ],
+      "FOOT_L": [
+        220,
+        448
+      ],
+      "FOOT_R": [
+        292,
+        448
+      ]
+    },
+    "secondary_pivots_absolute": {
+      "HIP_L": [
+        236,
+        326
+      ],
+      "HIP_R": [
+        276,
+        326
+      ]
+    }
+  },
+  "bones": [
+    {
+      "id": "hip",
+      "parent": null,
+      "rest_position_local": [
+        0,
+        326
+      ],
+      "pivot_absolute": [
+        256,
+        326
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 0.0
+    },
+    {
+      "id": "torso",
+      "parent": "hip",
+      "rest_position_local": [
+        0,
+        0
+      ],
+      "pivot_absolute": [
+        256,
+        326
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 132.0,
+      "end_marker": "HEAD_ROOT"
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "rest_position_local": [
+        0,
+        -132
+      ],
+      "pivot_absolute": [
+        256,
+        194
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 49.0,
+      "end_marker": "HEAD_CENTER"
+    },
+    {
+      "id": "upper_arm_l",
+      "parent": "torso",
+      "rest_position_local": [
+        -41,
+        -94
+      ],
+      "pivot_absolute": [
+        215,
+        232
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 50.6,
+      "end_marker": "ELBOW_L"
+    },
+    {
+      "id": "forearm_hand_l",
+      "parent": "upper_arm_l",
+      "rest_position_local": [
+        -25,
+        44
+      ],
+      "pivot_absolute": [
+        190,
+        276
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 48.7,
+      "end_marker": "HAND_L"
+    },
+    {
+      "id": "upper_arm_r",
+      "parent": "torso",
+      "rest_position_local": [
+        41,
+        -94
+      ],
+      "pivot_absolute": [
+        297,
+        232
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 50.6,
+      "end_marker": "ELBOW_R"
+    },
+    {
+      "id": "forearm_hand_r",
+      "parent": "upper_arm_r",
+      "rest_position_local": [
+        25,
+        44
+      ],
+      "pivot_absolute": [
+        322,
+        276
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 48.7,
+      "end_marker": "HAND_R"
+    },
+    {
+      "id": "thigh_l",
+      "parent": "hip",
+      "rest_position_local": [
+        -20,
+        0
+      ],
+      "pivot_absolute": [
+        236,
+        326
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 56.6,
+      "end_marker": "KNEE_L"
+    },
+    {
+      "id": "lower_leg_boot_l",
+      "parent": "thigh_l",
+      "rest_position_local": [
+        -8,
+        56
+      ],
+      "pivot_absolute": [
+        228,
+        382
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 66.5,
+      "end_marker": "FOOT_L"
+    },
+    {
+      "id": "thigh_r",
+      "parent": "hip",
+      "rest_position_local": [
+        20,
+        0
+      ],
+      "pivot_absolute": [
+        276,
+        326
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 56.6,
+      "end_marker": "KNEE_R"
+    },
+    {
+      "id": "lower_leg_boot_r",
+      "parent": "thigh_r",
+      "rest_position_local": [
+        8,
+        56
+      ],
+      "pivot_absolute": [
+        284,
+        382
+      ],
+      "rest_rotation_deg": 0.0,
+      "editor_length": 66.5,
+      "end_marker": "FOOT_R"
+    }
+  ],
+  "sockets": [
+    {
+      "id": "weapon_main_socket",
+      "parent_bone": "forearm_hand_r",
+      "absolute_marker": "HAND_R",
+      "local_position": [
+        16,
+        46
+      ]
+    },
+    {
+      "id": "offhand_socket",
+      "parent_bone": "forearm_hand_l",
+      "absolute_marker": "HAND_L",
+      "local_position": [
+        -16,
+        46
+      ]
+    },
+    {
+      "id": "back_cape_socket",
+      "parent_bone": "torso",
+      "local_position": [
+        0,
+        -82
+      ]
+    },
+    {
+      "id": "chest_accessory_socket",
+      "parent_bone": "torso",
+      "local_position": [
+        0,
+        -76
+      ]
+    },
+    {
+      "id": "waist_accessory_socket",
+      "parent_bone": "hip",
+      "local_position": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "fx_origin_socket",
+      "parent_bone": "hip",
+      "local_position": [
+        0,
+        0
+      ]
+    }
+  ],
+  "z_lanes": {
+    "hair_back": 0,
+    "cape_back": 10,
+    "body_far": 20,
+    "armor_far": 30,
+    "legs": 40,
+    "torso": 50,
+    "head_face": 60,
+    "hair_front": 70,
+    "body_near": 80,
+    "armor_near": 85,
+    "weapon_offhand": 90,
+    "accessory": 100,
+    "fx": 110
+  },
+  "rules": {
+    "sprite_z_as_relative": false,
+    "y_sort_enabled": false,
+    "runtime_ik_allowed": false,
+    "character_specific_bones_allowed": false,
+    "character_specific_anchor_overrides_allowed": false,
+    "view_specific_texture_and_z_allowed": true,
+    "animation_z_overrides_allowed": true
+  }
+}

@@ -1,0 +1,396 @@
+{
+	"armor_set": "armor_blackguard_01",
+	"error_count": 12,
+	"facing": "right",
+	"fixture": "blackguard_p2_4b",
+	"global_errors": [],
+	"ok": false,
+	"rig_id": "vanguard_sword_shield",
+	"rig_status": "frozen_p1_5",
+	"rig_verified": true,
+	"slots": {
+		"forearm_hand_l": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0961; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": 1.15198525494305,
+				"distal_marker": "HAND_L",
+				"drift_px": 0.979252755641937,
+				"expected": [
+					174.0,
+					322.0
+				],
+				"landed": [
+					173.086395263672,
+					321.647491455078
+				],
+				"length_ratio": 0.999528637614671
+			},
+			"part_id": "armor_blackguard_01.forearm_hand_l",
+			"pivot_source": [
+				648.0,
+				407.0
+			],
+			"scale_to_logical": 0.0961,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_forearm_hand_l_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)"
+			],
+			"z_index": 31
+		},
+		"forearm_hand_r": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1536x1536 placed through scale_to_logical=0.0504; allowed only during P2.4B normalization)",
+				"GR012 source container is JPEG (signature ffd8), cannot carry alpha (vss_armor_blackguard_01_forearm_hand_r_front3q.jpg)",
+				"GR012 source has no alpha/RGBA (vss_armor_blackguard_01_forearm_hand_r_front3q.jpg)"
+			],
+			"fit": {
+				"angle_mismatch_deg": -7.91654356410797,
+				"distal_marker": "HAND_R",
+				"drift_px": 6.72289228439331,
+				"expected": [
+					338.0,
+					322.0
+				],
+				"landed": [
+					344.175994873047,
+					319.343994140625
+				],
+				"length_ratio": 0.99967902242355
+			},
+			"part_id": "armor_blackguard_01.forearm_hand_r",
+			"pivot_source": [
+				540.0,
+				320.0
+			],
+			"scale_to_logical": 0.0504,
+			"source_size": [
+				1536.0,
+				1536.0
+			],
+			"texture": "vss_armor_blackguard_01_forearm_hand_r_front3q.jpg",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"LAB01 distal joint lands 6.7 px from HAND_R (art axis -7.9 deg off the bone)"
+			],
+			"z_index": 86
+		},
+		"lower_leg_boot_l": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0633; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": -1.7217371172256,
+				"distal_marker": "FOOT_L",
+				"drift_px": 1.99775421619415,
+				"expected": [
+					220.0,
+					448.0
+				],
+				"landed": [
+					221.98649597168,
+					448.211791992188
+				],
+				"length_ratio": 1.00001870538107
+			},
+			"part_id": "armor_blackguard_01.lower_leg_boot_l",
+			"pivot_source": [
+				655.0,
+				190.0
+			],
+			"scale_to_logical": 0.0633,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_lower_leg_boot_l_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"LAB01 distal joint lands 2.0 px from FOOT_L (art axis -1.7 deg off the bone)"
+			],
+			"z_index": 41
+		},
+		"lower_leg_boot_r": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0679; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": 1.04924384190043,
+				"distal_marker": "FOOT_R",
+				"drift_px": 1.21745634078979,
+				"expected": [
+					292.0,
+					448.0
+				],
+				"landed": [
+					290.790008544922,
+					448.134613037109
+				],
+				"length_ratio": 0.999987606250581
+			},
+			"part_id": "armor_blackguard_01.lower_leg_boot_r",
+			"pivot_source": [
+				620.0,
+				185.0
+			],
+			"scale_to_logical": 0.0679,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_lower_leg_boot_r_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"LAB01 distal joint lands 1.2 px from FOOT_R (art axis 1.0 deg off the bone)"
+			],
+			"z_index": 43
+		},
+		"thigh_l": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0652; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": -15.7465622918102,
+				"distal_marker": "KNEE_L",
+				"drift_px": 15.4981679916382,
+				"expected": [
+					228.0,
+					382.0
+				],
+				"landed": [
+					243.498001098633,
+					382.071990966797
+				],
+				"length_ratio": 1.00004518142162
+			},
+			"part_id": "armor_blackguard_01.thigh_l",
+			"pivot_source": [
+				640.0,
+				220.0
+			],
+			"scale_to_logical": 0.0652,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_thigh_l_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"GR052 alpha touches canvas edge: bottom",
+				"LAB01 distal joint lands 15.5 px from KNEE_L (art axis -15.7 deg off the bone)"
+			],
+			"z_index": 40
+		},
+		"thigh_r": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0648; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": 16.35291745802,
+				"distal_marker": "KNEE_R",
+				"drift_px": 16.1000900268555,
+				"expected": [
+					284.0,
+					382.0
+				],
+				"landed": [
+					267.899993896484,
+					382.052001953125
+				],
+				"length_ratio": 1.00116136484038
+			},
+			"part_id": "armor_blackguard_01.thigh_r",
+			"pivot_source": [
+				640.0,
+				215.0
+			],
+			"scale_to_logical": 0.0648,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_thigh_r_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"GR052 alpha touches canvas edge: bottom",
+				"LAB01 distal joint lands 16.1 px from KNEE_R (art axis 16.4 deg off the bone)"
+			],
+			"z_index": 42
+		},
+		"torso": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1250; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": -0.578635750597762,
+				"distal_marker": "SHOULDER_R",
+				"drift_px": 1.125,
+				"expected": [
+					297.0,
+					232.0
+				],
+				"landed": [
+					295.875,
+					232.0
+				],
+				"length_ratio": 0.995664999622073
+			},
+			"part_id": "armor_blackguard_01.torso",
+			"pivot_source": [
+				640.0,
+				1202.0
+			],
+			"scale_to_logical": 0.125,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_torso_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"GR052 alpha touches canvas edge: left",
+				"LAB01 distal joint lands 1.1 px from SHOULDER_R (art axis -0.6 deg off the bone)"
+			],
+			"z_index": 50
+		},
+		"upper_arm_l": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1193; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": -2.67677354728621,
+				"distal_marker": "ELBOW_L",
+				"drift_px": 2.36356377601624,
+				"expected": [
+					190.0,
+					276.0
+				],
+				"landed": [
+					192.09440612793,
+					277.095397949219
+				],
+				"length_ratio": 0.999465255314581
+			},
+			"part_id": "armor_blackguard_01.upper_arm_l",
+			"pivot_source": [
+				690.0,
+				450.0
+			],
+			"scale_to_logical": 0.1193,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_upper_arm_l_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"LAB01 distal joint lands 2.4 px from ELBOW_L (art axis -2.7 deg off the bone)"
+			],
+			"z_index": 30
+		},
+		"upper_arm_r": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0952; allowed only during P2.4B normalization)"
+			],
+			"fit": {
+				"angle_mismatch_deg": 0.581242108096356,
+				"distal_marker": "ELBOW_R",
+				"drift_px": 0.513843417167664,
+				"expected": [
+					322.0,
+					276.0
+				],
+				"landed": [
+					321.561584472656,
+					276.268005371094
+				],
+				"length_ratio": 1.00037637161183
+			},
+			"part_id": "armor_blackguard_01.upper_arm_r",
+			"pivot_source": [
+				550.0,
+				430.0
+			],
+			"scale_to_logical": 0.0952,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_upper_arm_r_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)"
+			],
+			"z_index": 85
+		},
+		"waist_tabard": {
+			"canvas_offset": [
+				0.0,
+				0.0
+			],
+			"errors": [
+				"GR011 normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1400; allowed only during P2.4B normalization)"
+			],
+			"fit": null,
+			"part_id": "armor_blackguard_01.waist_tabard",
+			"pivot_source": [
+				632.0,
+				290.0
+			],
+			"scale_to_logical": 0.14,
+			"source_size": [
+				1254.0,
+				1254.0
+			],
+			"texture": "vss_armor_blackguard_01_waist_tabard_front3q.png",
+			"warnings": [
+				"GR010 view back_3q not authored yet (expected at this gate for back_3q)",
+				"GR052 alpha touches canvas edge: bottom",
+				"LAB02 lowest opaque pixel lands at y=461.0, below ground_y=448"
+			],
+			"z_index": 51
+		}
+	},
+	"view": "front_3q",
+	"warning_count": 22
+}

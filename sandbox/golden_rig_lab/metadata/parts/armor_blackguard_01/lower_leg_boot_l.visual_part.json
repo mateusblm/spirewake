@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"part_id": "armor_blackguard_01.lower_leg_boot_l",
+	"armor_set_id": "armor_blackguard_01",
+	"slot": "lower_leg_boot_l",
+	"attachment": {
+		"kind": "bone",
+		"target": "lower_leg_boot_l",
+		"sprite_node": "armor_lower_leg_boot_l"
+	},
+	"z_lane": "legs",
+	"mirror_safe": false,
+	"views": {
+		"front_3q": {
+			"texture": "res://assets/armor/armor_blackguard_01/front_3q/vss_armor_blackguard_01_lower_leg_boot_l_front3q.png",
+			"source_size": [
+				1254,
+				1254
+			],
+			"source_canvas_size": [
+				1254,
+				1254
+			],
+			"canvas_offset": [
+				0,
+				0
+			],
+			"pivot_source": [
+				655,
+				190
+			],
+			"pivot_marker": "KNEE_L",
+			"scale_to_logical": 0.0633,
+			"z_index": 41,
+			"status": "candidate",
+			"notes": "Pivot = top rim centre of the greave. Scale = 66.5 / dist(rim, sole contact point). Axis matches bone within ~2 deg.",
+			"distal_source": [
+				560,
+				1236
+			],
+			"distal_marker": "FOOT_L"
+		}
+	}
+}

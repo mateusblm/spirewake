@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "gate": "P2.4B",
+  "armor_set": "armor_blackguard_01",
+  "view": "front_3q",
+  "status": "READY_FOR_REAL_REASSEMBLY",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "slot": "torso",
+      "file": "vss_armor_blackguard_01_torso_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        0,
+        41,
+        1148,
+        1209
+      ],
+      "margins_px": {
+        "left": 0,
+        "top": 41,
+        "right": 106,
+        "bottom": 45
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "upper_arm_l",
+      "file": "vss_armor_blackguard_01_upper_arm_l_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        97,
+        109,
+        1210,
+        1254
+      ],
+      "margins_px": {
+        "left": 97,
+        "top": 109,
+        "right": 44,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "upper_arm_r",
+      "file": "vss_armor_blackguard_01_upper_arm_r_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        91,
+        95,
+        1079,
+        1254
+      ],
+      "margins_px": {
+        "left": 91,
+        "top": 95,
+        "right": 175,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "forearm_hand_l",
+      "file": "vss_armor_blackguard_01_forearm_hand_l_front3q.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1536,
+        1536
+      ],
+      "margins_px": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "forearm_hand_r",
+      "file": "vss_armor_blackguard_01_forearm_hand_r_front3q.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1536,
+        1536
+      ],
+      "margins_px": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "thigh_l",
+      "file": "vss_armor_blackguard_01_thigh_l_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        103,
+        28,
+        1208,
+        1254
+      ],
+      "margins_px": {
+        "left": 103,
+        "top": 28,
+        "right": 46,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "thigh_r",
+      "file": "vss_armor_blackguard_01_thigh_r_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        69,
+        21,
+        1210,
+        1254
+      ],
+      "margins_px": {
+        "left": 69,
+        "top": 21,
+        "right": 44,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "lower_leg_boot_l",
+      "file": "vss_armor_blackguard_01_lower_leg_boot_l_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        73,
+        19,
+        1196,
+        1236
+      ],
+      "margins_px": {
+        "left": 73,
+        "top": 19,
+        "right": 58,
+        "bottom": 18
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "lower_leg_boot_r",
+      "file": "vss_armor_blackguard_01_lower_leg_boot_r_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        105,
+        23,
+        1037,
+        1159
+      ],
+      "margins_px": {
+        "left": 105,
+        "top": 23,
+        "right": 217,
+        "bottom": 95
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    },
+    {
+      "slot": "waist_tabard",
+      "file": "vss_armor_blackguard_01_waist_tabard_front3q.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bbox": [
+        23,
+        21,
+        1196,
+        1254
+      ],
+      "margins_px": {
+        "left": 23,
+        "top": 21,
+        "right": 58,
+        "bottom": 0
+      },
+      "has_alpha": true,
+      "status": "APPROVED_CANDIDATE_PENDING_REAL_REASSEMBLY"
+    }
+  ],
+  "rules": [
+    "Do not alter P1.5 shared rig geometry.",
+    "Do not add per-character or per-piece bones.",
+    "Adjust only asset-local pivot/offset/z metadata.",
+    "Any piece that requires a rig exception fails P2.4B.",
+    "No candidate becomes frozen-final until the reconstructed FRONT_3Q passes visual review."
+  ]
+}

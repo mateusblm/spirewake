@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"part_id": "armor_blackguard_01.upper_arm_l",
+	"armor_set_id": "armor_blackguard_01",
+	"slot": "upper_arm_l",
+	"attachment": {
+		"kind": "bone",
+		"target": "upper_arm_l",
+		"sprite_node": "armor_upper_arm_l"
+	},
+	"z_lane": "armor_far",
+	"mirror_safe": false,
+	"views": {
+		"front_3q": {
+			"texture": "res://assets/armor/armor_blackguard_01/front_3q/vss_armor_blackguard_01_upper_arm_l_front3q.png",
+			"source_size": [
+				1254,
+				1254
+			],
+			"source_canvas_size": [
+				1254,
+				1254
+			],
+			"canvas_offset": [
+				0,
+				0
+			],
+			"pivot_source": [
+				690,
+				450
+			],
+			"pivot_marker": "SHOULDER_L",
+			"scale_to_logical": 0.1193,
+			"z_index": 30,
+			"status": "candidate_p2_4b_1",
+			"notes": "P2.4B-1 candidate, RGBA 1254x1254 (sha256 98bf390f...), source: orca generated_images exec-d3e3e7e9. Pivot = centre of the pauldron dome (anatomical shoulder under the dome). Distal = centre of the round elbow cap (498,828). Scale = 50.6 / dist(pivot, distal). Raw candidate, not 512-normalized (GR011 expected until freeze).",
+			"distal_source": [
+				498,
+				828
+			],
+			"distal_marker": "ELBOW_L"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"schema_version": 1,
+	"armor_set_id": "armor_blackguard_01",
+	"rig_id": "vanguard_sword_shield",
+	"status": "candidate_p2_4b",
+	"mirror_safe": false,
+	"mandatory_slots": [
+		"torso",
+		"upper_arm_l",
+		"upper_arm_r",
+		"forearm_hand_l",
+		"forearm_hand_r",
+		"thigh_l",
+		"thigh_r",
+		"lower_leg_boot_l",
+		"lower_leg_boot_r",
+		"waist_tabard"
+	],
+	"parts": {
+		"torso": "res://metadata/parts/armor_blackguard_01/torso.visual_part.json",
+		"upper_arm_l": "res://metadata/parts/armor_blackguard_01/upper_arm_l.visual_part.json",
+		"upper_arm_r": "res://metadata/parts/armor_blackguard_01/upper_arm_r.visual_part.json",
+		"forearm_hand_l": "res://metadata/parts/armor_blackguard_01/forearm_hand_l.visual_part.json",
+		"forearm_hand_r": "res://metadata/parts/armor_blackguard_01/forearm_hand_r.visual_part.json",
+		"thigh_l": "res://metadata/parts/armor_blackguard_01/thigh_l.visual_part.json",
+		"thigh_r": "res://metadata/parts/armor_blackguard_01/thigh_r.visual_part.json",
+		"lower_leg_boot_l": "res://metadata/parts/armor_blackguard_01/lower_leg_boot_l.visual_part.json",
+		"lower_leg_boot_r": "res://metadata/parts/armor_blackguard_01/lower_leg_boot_r.visual_part.json",
+		"waist_tabard": "res://metadata/parts/armor_blackguard_01/waist_tabard.visual_part.json"
+	}
+}

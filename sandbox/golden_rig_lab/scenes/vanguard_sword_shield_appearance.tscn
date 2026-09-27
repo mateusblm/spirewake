@@ -1,0 +1,207 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/vanguard_sword_shield_appearance.gd" id="1_32psc"]
+[ext_resource type="Script" path="res://rig/visual_assembler.gd" id="2_kd8hf"]
+[ext_resource type="Script" path="res://scenes/debug_overlay.gd" id="3_fgbgq"]
+
+[node name="VanguardSwordShieldAppearance" type="Node2D" unique_id=2031262506]
+script = ExtResource("1_32psc")
+
+[node name="ContactShadow" type="Sprite2D" parent="." unique_id=1761332164]
+position = Vector2(256, 448)
+
+[node name="MirrorRoot" type="Node2D" parent="." unique_id=544325307]
+position = Vector2(256, 0)
+
+[node name="Skeleton2D" type="Skeleton2D" parent="MirrorRoot" unique_id=127386782]
+
+[node name="hip" type="Bone2D" parent="MirrorRoot/Skeleton2D" unique_id=1917253963]
+position = Vector2(0, 326)
+rest = Transform2D(1, 0, 0, 1, 0, 326)
+auto_calculate_length_and_angle = false
+length = 0.0
+bone_angle = 0.0
+
+[node name="waist_tabard" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=1870444406]
+z_as_relative = false
+
+[node name="torso" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=1233212718]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+auto_calculate_length_and_angle = false
+length = 132.0
+bone_angle = -90.0
+
+[node name="body_torso" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=1335696279]
+z_as_relative = false
+
+[node name="armor_torso" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=471144595]
+z_as_relative = false
+
+[node name="cape_back" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=2017187197]
+z_as_relative = false
+
+[node name="chest_accessory" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=708043027]
+z_as_relative = false
+
+[node name="head" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=1722652667]
+position = Vector2(0, -132)
+rest = Transform2D(1, 0, 0, 1, 0, -132)
+auto_calculate_length_and_angle = false
+length = 49.0
+bone_angle = -90.0
+
+[node name="head_base" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=197868189]
+z_as_relative = false
+
+[node name="face_overlay" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=1509623554]
+z_as_relative = false
+
+[node name="scar_overlay" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=1151640600]
+z_as_relative = false
+
+[node name="hair_back" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=1539248431]
+z_as_relative = false
+
+[node name="hair_front" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=1106427538]
+z_as_relative = false
+
+[node name="head_accessory" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/head" unique_id=132871296]
+z_as_relative = false
+
+[node name="upper_arm_l" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=1817708619]
+position = Vector2(-41, -94)
+rest = Transform2D(1, 0, 0, 1, -41, -94)
+auto_calculate_length_and_angle = false
+length = 50.6
+bone_angle = 119.60445
+
+[node name="body_upper_arm_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l" unique_id=1854146937]
+z_as_relative = false
+
+[node name="armor_upper_arm_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l" unique_id=1556211029]
+z_as_relative = false
+
+[node name="forearm_hand_l" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l" unique_id=340944725]
+position = Vector2(-25, 44)
+rest = Transform2D(1, 0, 0, 1, -25, 44)
+auto_calculate_length_and_angle = false
+length = 48.7
+bone_angle = 109.179
+
+[node name="body_forearm_hand_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l/forearm_hand_l" unique_id=1495200916]
+z_as_relative = false
+
+[node name="armor_forearm_hand_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l/forearm_hand_l" unique_id=567719719]
+z_as_relative = false
+
+[node name="offhand_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l/forearm_hand_l" unique_id=659140734]
+position = Vector2(-16, 46)
+
+[node name="offhand" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_l/forearm_hand_l/offhand_socket" unique_id=599298663]
+z_as_relative = false
+
+[node name="upper_arm_r" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=1651807046]
+position = Vector2(41, -94)
+rest = Transform2D(1, 0, 0, 1, 41, -94)
+auto_calculate_length_and_angle = false
+length = 50.6
+bone_angle = 60.39555
+
+[node name="body_upper_arm_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r" unique_id=2087404471]
+z_as_relative = false
+
+[node name="armor_upper_arm_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r" unique_id=1097833618]
+z_as_relative = false
+
+[node name="forearm_hand_r" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r" unique_id=734918270]
+position = Vector2(25, 44)
+rest = Transform2D(1, 0, 0, 1, 25, 44)
+auto_calculate_length_and_angle = false
+length = 48.7
+bone_angle = 70.82099
+
+[node name="body_forearm_hand_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r/forearm_hand_r" unique_id=2098459750]
+z_as_relative = false
+
+[node name="armor_forearm_hand_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r/forearm_hand_r" unique_id=691011450]
+z_as_relative = false
+
+[node name="weapon_main_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r/forearm_hand_r" unique_id=497520754]
+position = Vector2(16, 46)
+
+[node name="weapon_main" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/torso/upper_arm_r/forearm_hand_r/weapon_main_socket" unique_id=1225201647]
+z_as_relative = false
+
+[node name="back_cape_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=1852895427]
+position = Vector2(0, -82)
+
+[node name="chest_accessory_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip/torso" unique_id=204665844]
+position = Vector2(0, -76)
+
+[node name="thigh_l" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=1663258420]
+position = Vector2(-20, 0)
+rest = Transform2D(1, 0, 0, 1, -20, 0)
+auto_calculate_length_and_angle = false
+length = 56.6
+bone_angle = 98.1301
+
+[node name="body_thigh_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_l" unique_id=1231979383]
+z_as_relative = false
+
+[node name="armor_thigh_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_l" unique_id=753006832]
+z_as_relative = false
+
+[node name="lower_leg_boot_l" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/thigh_l" unique_id=118228091]
+position = Vector2(-8, 56)
+rest = Transform2D(1, 0, 0, 1, -8, 56)
+auto_calculate_length_and_angle = false
+length = 66.5
+bone_angle = 96.91122
+
+[node name="body_lower_leg_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_l/lower_leg_boot_l" unique_id=1118693394]
+z_as_relative = false
+
+[node name="armor_lower_leg_boot_l" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_l/lower_leg_boot_l" unique_id=1798352459]
+z_as_relative = false
+
+[node name="thigh_r" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=271050470]
+position = Vector2(20, 0)
+rest = Transform2D(1, 0, 0, 1, 20, 0)
+auto_calculate_length_and_angle = false
+length = 56.6
+bone_angle = 81.869896
+
+[node name="body_thigh_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_r" unique_id=1055930316]
+z_as_relative = false
+
+[node name="armor_thigh_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_r" unique_id=1104312135]
+z_as_relative = false
+
+[node name="lower_leg_boot_r" type="Bone2D" parent="MirrorRoot/Skeleton2D/hip/thigh_r" unique_id=1631795531]
+position = Vector2(8, 56)
+rest = Transform2D(1, 0, 0, 1, 8, 56)
+auto_calculate_length_and_angle = false
+length = 66.5
+bone_angle = 83.08877
+
+[node name="body_lower_leg_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_r/lower_leg_boot_r" unique_id=1874087316]
+z_as_relative = false
+
+[node name="armor_lower_leg_boot_r" type="Sprite2D" parent="MirrorRoot/Skeleton2D/hip/thigh_r/lower_leg_boot_r" unique_id=415965286]
+z_as_relative = false
+
+[node name="waist_accessory_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=593593898]
+position = Vector2(0, 4)
+
+[node name="fx_origin_socket" type="Marker2D" parent="MirrorRoot/Skeleton2D/hip" unique_id=541084532]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1680006612]
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=2126691224]
+active = false
+
+[node name="VisualAssembler" type="Node" parent="." unique_id=1176372915]
+script = ExtResource("2_kd8hf")
+
+[node name="DebugOverlay" type="Node2D" parent="." unique_id=596631361]
+script = ExtResource("3_fgbgq")

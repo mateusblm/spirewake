@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"part_id": "armor_blackguard_01.forearm_hand_r",
+	"armor_set_id": "armor_blackguard_01",
+	"slot": "forearm_hand_r",
+	"attachment": {
+		"kind": "bone",
+		"target": "forearm_hand_r",
+		"sprite_node": "armor_forearm_hand_r"
+	},
+	"z_lane": "armor_near",
+	"mirror_safe": false,
+	"views": {
+		"front_3q": {
+			"texture": "res://assets/armor/armor_blackguard_01/front_3q/vss_armor_blackguard_01_forearm_hand_r_front3q.jpg",
+			"source_size": [
+				1536,
+				1536
+			],
+			"source_canvas_size": [
+				1536,
+				1536
+			],
+			"canvas_offset": [
+				0,
+				0
+			],
+			"pivot_source": [
+				540,
+				320
+			],
+			"pivot_marker": "ELBOW_R",
+			"scale_to_logical": 0.0504,
+			"z_index": 86,
+			"status": "candidate",
+			"notes": "DELIVERED FILE IS A JPEG WITH .png EXTENSION (signature ffd8ffe0): no alpha channel, opaque black background. Original bytes preserved in assets/.../front_3q/_source_as_delivered/ (.gdignore); the Lab loads a byte-identical .jpg copy. Fails GR012. Pivot = elbow cuff centre (luminance mask). Scale = 48.7 / dist(elbow, fist centre). Art axis ~27 deg right of vertical; bone ~19 deg.",
+			"distal_source": [
+				980,
+				1180
+			],
+			"distal_marker": "HAND_R"
+		}
+	}
+}

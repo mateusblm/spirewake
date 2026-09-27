@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"part_id": "armor_blackguard_01.torso",
+	"armor_set_id": "armor_blackguard_01",
+	"slot": "torso",
+	"attachment": {
+		"kind": "bone",
+		"target": "torso",
+		"sprite_node": "armor_torso"
+	},
+	"z_lane": "torso",
+	"mirror_safe": false,
+	"views": {
+		"front_3q": {
+			"texture": "res://assets/armor/armor_blackguard_01/front_3q/vss_armor_blackguard_01_torso_front3q.png",
+			"source_size": [
+				1254,
+				1254
+			],
+			"source_canvas_size": [
+				1254,
+				1254
+			],
+			"canvas_offset": [
+				0,
+				0
+			],
+			"pivot_source": [
+				640,
+				1202
+			],
+			"pivot_marker": "HIP",
+			"scale_to_logical": 0.125,
+			"z_index": 50,
+			"status": "candidate",
+			"notes": "Scale derived from shoulder-cap distance in art (655 src px) vs SHOULDER_L->SHOULDER_R (82 logical). Pivot = art point that lands on HIP (94 logical below the shoulder line). Art includes its own belt + tassets/cloth skirt reaching the hip line.",
+			"distal_source": [
+				959,
+				450
+			],
+			"distal_marker": "SHOULDER_R"
+		}
+	}
+}

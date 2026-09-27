@@ -1,0 +1,39 @@
+{
+	"schema_version": 1,
+	"part_id": "armor_blackguard_01.waist_tabard",
+	"armor_set_id": "armor_blackguard_01",
+	"slot": "waist_tabard",
+	"attachment": {
+		"kind": "bone",
+		"target": "hip",
+		"sprite_node": "waist_tabard"
+	},
+	"z_lane": "torso",
+	"mirror_safe": false,
+	"views": {
+		"front_3q": {
+			"texture": "res://assets/armor/armor_blackguard_01/front_3q/vss_armor_blackguard_01_waist_tabard_front3q.png",
+			"source_size": [
+				1254,
+				1254
+			],
+			"source_canvas_size": [
+				1254,
+				1254
+			],
+			"canvas_offset": [
+				0,
+				0
+			],
+			"pivot_source": [
+				632,
+				290
+			],
+			"pivot_marker": "HIP",
+			"scale_to_logical": 0.14,
+			"z_index": 51,
+			"status": "candidate",
+			"notes": "Attached directly to hip (GODOT_SCENE_CONTRACT: waist_tabard is a child of hip). Pivot = belt centre. Scale chosen so the belt width (~570 src) matches the torso belt width (~80 logical). Cloth bottom lands ~13 logical px below ground_y=448."
+		}
+	}
+}

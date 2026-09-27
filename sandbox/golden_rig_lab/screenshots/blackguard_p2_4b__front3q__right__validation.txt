@@ -1,0 +1,61 @@
+view=front_3q facing=right mode=Geometry
+armor_set=armor_blackguard_01 status=candidate_p2_4b
+current asset IDs:
+  forearm_hand_l    armor_blackguard_01.forearm_hand_l z=31  pivot=[648.0, 407.0] scale=0.0961
+  forearm_hand_r    armor_blackguard_01.forearm_hand_r z=86  pivot=[540.0, 320.0] scale=0.0504
+  lower_leg_boot_l  armor_blackguard_01.lower_leg_boot_l z=41  pivot=[655.0, 190.0] scale=0.0633
+  lower_leg_boot_r  armor_blackguard_01.lower_leg_boot_r z=43  pivot=[620.0, 185.0] scale=0.0679
+  thigh_l           armor_blackguard_01.thigh_l      z=40  pivot=[640.0, 220.0] scale=0.0652
+  thigh_r           armor_blackguard_01.thigh_r      z=42  pivot=[640.0, 215.0] scale=0.0648
+  torso             armor_blackguard_01.torso        z=50  pivot=[640.0, 1202.0] scale=0.1250
+  upper_arm_l       armor_blackguard_01.upper_arm_l  z=30  pivot=[690.0, 450.0] scale=0.1193
+  upper_arm_r       armor_blackguard_01.upper_arm_r  z=85  pivot=[550.0, 430.0] scale=0.0952
+  waist_tabard      armor_blackguard_01.waist_tabard z=51  pivot=[632.0, 290.0] scale=0.1400
+
+ok: false
+errors (12):
+  GR011 [torso] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1250; allowed only during P2.4B normalization)
+  GR011 [upper_arm_l] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1193; allowed only during P2.4B normalization)
+  GR011 [upper_arm_r] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0952; allowed only during P2.4B normalization)
+  GR011 [forearm_hand_l] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0961; allowed only during P2.4B normalization)
+  GR011 [forearm_hand_r] normalized pilot PNG is not 512x512 (raw candidate 1536x1536 placed through scale_to_logical=0.0504; allowed only during P2.4B normalization)
+  GR012 [forearm_hand_r] source container is JPEG (signature ffd8), cannot carry alpha (vss_armor_blackguard_01_forearm_hand_r_front3q.jpg)
+  GR012 [forearm_hand_r] source has no alpha/RGBA (vss_armor_blackguard_01_forearm_hand_r_front3q.jpg)
+  GR011 [thigh_l] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0652; allowed only during P2.4B normalization)
+  GR011 [thigh_r] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0648; allowed only during P2.4B normalization)
+  GR011 [lower_leg_boot_l] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0633; allowed only during P2.4B normalization)
+  GR011 [lower_leg_boot_r] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.0679; allowed only during P2.4B normalization)
+  GR011 [waist_tabard] normalized pilot PNG is not 512x512 (raw candidate 1254x1254 placed through scale_to_logical=0.1400; allowed only during P2.4B normalization)
+warnings (22):
+  GR010 [torso] view back_3q not authored yet (expected at this gate for back_3q)
+  GR052 [torso] alpha touches canvas edge: left
+  LAB01 [torso] distal joint lands 1.1 px from SHOULDER_R (art axis -0.6 deg off the bone)
+  GR010 [upper_arm_l] view back_3q not authored yet (expected at this gate for back_3q)
+  LAB01 [upper_arm_l] distal joint lands 2.4 px from ELBOW_L (art axis -2.7 deg off the bone)
+  GR010 [upper_arm_r] view back_3q not authored yet (expected at this gate for back_3q)
+  GR010 [forearm_hand_l] view back_3q not authored yet (expected at this gate for back_3q)
+  GR010 [forearm_hand_r] view back_3q not authored yet (expected at this gate for back_3q)
+  LAB01 [forearm_hand_r] distal joint lands 6.7 px from HAND_R (art axis -7.9 deg off the bone)
+  GR010 [thigh_l] view back_3q not authored yet (expected at this gate for back_3q)
+  GR052 [thigh_l] alpha touches canvas edge: bottom
+  LAB01 [thigh_l] distal joint lands 15.5 px from KNEE_L (art axis -15.7 deg off the bone)
+  GR010 [thigh_r] view back_3q not authored yet (expected at this gate for back_3q)
+  GR052 [thigh_r] alpha touches canvas edge: bottom
+  LAB01 [thigh_r] distal joint lands 16.1 px from KNEE_R (art axis 16.4 deg off the bone)
+  GR010 [lower_leg_boot_l] view back_3q not authored yet (expected at this gate for back_3q)
+  LAB01 [lower_leg_boot_l] distal joint lands 2.0 px from FOOT_L (art axis -1.7 deg off the bone)
+  GR010 [lower_leg_boot_r] view back_3q not authored yet (expected at this gate for back_3q)
+  LAB01 [lower_leg_boot_r] distal joint lands 1.2 px from FOOT_R (art axis 1.0 deg off the bone)
+  GR010 [waist_tabard] view back_3q not authored yet (expected at this gate for back_3q)
+  GR052 [waist_tabard] alpha touches canvas edge: bottom
+  LAB02 [waist_tabard] lowest opaque pixel lands at y=461.0, below ground_y=448
+fit diagnostics (distal joint of each part vs frozen marker):
+  torso             -> SHOULDER_R drift   1.1 px  angle   -0.6 deg  len x1.00
+  upper_arm_l       -> ELBOW_L    drift   2.4 px  angle   -2.7 deg  len x1.00
+  upper_arm_r       -> ELBOW_R    drift   0.5 px  angle    0.6 deg  len x1.00
+  forearm_hand_l    -> HAND_L     drift   1.0 px  angle    1.2 deg  len x1.00
+  forearm_hand_r    -> HAND_R     drift   6.7 px  angle   -7.9 deg  len x1.00
+  thigh_l           -> KNEE_L     drift  15.5 px  angle  -15.7 deg  len x1.00
+  thigh_r           -> KNEE_R     drift  16.1 px  angle   16.4 deg  len x1.00
+  lower_leg_boot_l  -> FOOT_L     drift   2.0 px  angle   -1.7 deg  len x1.00
+  lower_leg_boot_r  -> FOOT_R     drift   1.2 px  angle    1.0 deg  len x1.00
